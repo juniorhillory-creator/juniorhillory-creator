@@ -384,7 +384,7 @@
             <path d="M8.5 4 L5 8.5 H8 L7.5 12 L11 7.5 H8 Z" fill="#10B981" />
           </g>
           <text x="40" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="0.5">FOCUS</text>
-          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">Web &amp; AI Systems & Cyber Security</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">Web &amp; AI Systems &amp; Cyber Security</text>
 
           <!-- Portfolio / Contact -->
           <g transform="translate(330, 0)">
