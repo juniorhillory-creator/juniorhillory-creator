@@ -302,7 +302,7 @@
           <g opacity="0">
             <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.0007; 0.1800; 0.2000; 1" dur="15s" repeatCount="indefinite" />
             <g clip-path="url(#roleClip_0)">
-              <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="url(#roleAccentGrad)">Frontend Engineer</text>
+              <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="url(#roleAccentGrad)">Frontend Developer</text>
             </g>
           </g>
 
@@ -326,7 +326,7 @@
           <g opacity="0">
             <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.6007; 0.7800; 0.8000; 1" dur="15s" repeatCount="indefinite" />
             <g clip-path="url(#roleClip_3)">
-              <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="url(#roleAccentGrad)">UI Engineer</text>
+              <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="url(#roleAccentGrad)">UI Designer</text>
             </g>
           </g>
 
@@ -360,7 +360,7 @@
             <circle cx="8" cy="7" r="1.2" fill="#0F172A" />
           </g>
           <text x="40" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="0.5">LOCATION</text>
-          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">San Francisco, CA / Earth 🌍</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">Sri Lanka / Earth 🌍</text>
 
           <!-- Education -->
           <g transform="translate(330, 0)">
@@ -384,7 +384,7 @@
             <path d="M8.5 4 L5 8.5 H8 L7.5 12 L11 7.5 H8 Z" fill="#10B981" />
           </g>
           <text x="40" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="0.5">FOCUS</text>
-          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">High-Performance Web &amp; AI Systems</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">Web &amp; AI Systems & Cyber Security</text>
 
           <!-- Portfolio / Contact -->
           <g transform="translate(330, 0)">
