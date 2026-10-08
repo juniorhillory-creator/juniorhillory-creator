@@ -203,7 +203,6 @@
 
       <!-- ASCII Portrait Lines with Sequential Reveal and Glowing Gradient -->
       <g>
-        <text x="212" y="88.0" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.8" fill="url(#asciiGrad)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.00s" fill="freeze" />        .:--================--:.        </text>
         <text x="212" y="102.5" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.8" fill="url(#asciiGrad)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.06s" fill="freeze" />     .=#%@@@@@@@@@@@@@@@@@@@@@@%#=.     </text>
         <text x="212" y="117.0" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.8" fill="url(#asciiGrad)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.12s" fill="freeze" />   :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:   </text>
         <text x="212" y="131.5" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.8" fill="url(#asciiGrad)"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.18s" fill="freeze" />  +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+  </text>
