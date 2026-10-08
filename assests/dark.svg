@@ -396,7 +396,7 @@
               <line x1="3" y1="8" x2="13" y2="8" stroke="#22D3EE" stroke-width="0.8" />
             </g>
             <text x="40" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="0.5">PORTFOLIO / CONTACT</text>
-            <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">kushmitha.dev · kushmitha@dev.io</text>
+            <text x="40" y="32" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#F1F5F9">https://kushmitha-s-portfolio.vercel.app/ </text>
           </g>
         </g>
       </g>
