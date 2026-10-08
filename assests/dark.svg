@@ -266,7 +266,7 @@
       <rect x="0" y="0" width="180" height="22" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="0.8" />
       <path d="M12 7 L16 11 L12 15" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
       <line x1="18" y1="15" x2="24" y2="15" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" />
-      <text x="32" y="15.5" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94A3B8">kushmitha@macos:~</text>
+      <text x="32" y="15.5" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94A3B8">juniorhillory@gmail.com:~</text>
     </g>
 
     <!-- Shell Status & Specs Tag -->
