@@ -1,11 +1,11 @@
 ## Hi there 👋
-<div align="center">
+<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kushmitha/kushmitha/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kushmitha/kushmitha/main/light.svg">
-    <img alt="Kushmitha's GitHub Profile Hero Banner" src="https://raw.githubusercontent.com/kushmitha/kushmitha/main/dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+    <img alt="Profile Hero Banner" src="./assets/dark.svg" width="100%">
   </picture>
-</div>
+</p>
 <!--
 **juniorhillory-creator/juniorhillory-creator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
