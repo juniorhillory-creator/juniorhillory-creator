@@ -408,7 +408,7 @@
       </g>
 
       <!-- Skills Glowing Pills (Aligned with left side at x=0) -->
-      <g transform="translate(0, 294)">
+      <<g transform="translate(0, 294)">
         <g class="skill-pill" transform="translate(0, 0)">
           <rect x="0" y="0" width="152" height="32" rx="8" fill="rgba(30, 41, 59, 0.75)" stroke="rgba(148, 163, 184, 0.15)" stroke-width="1" />
           <circle cx="16" cy="16" r="3.5" fill="url(#accentGrad)"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" begin="0.0s" repeatCount="indefinite" /></circle>
