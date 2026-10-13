@@ -136,8 +136,7 @@ I'm **Kushmitha**, a developer interested in building digital experiences and ex
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=juniorhillory-creator&style=flat-square&color=2563eb&label=PROFILE+VIEWS" alt="Profile views"/>
-  <!--![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME)-->
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/juniorhillory-creator/juniorhillory-creator/badge-data/badges/views-48h.json&style=flat-square" alt="Profile Views (48h)"/>
   <br/><br/>
   <i>Thanks for visiting my profile. Keep learning, keep building, and keep creating! ✨</i>
 </p>
