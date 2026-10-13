@@ -19,28 +19,29 @@ jobs:
       - name: Fetch traffic and generate badge JSON
         env:
           TRAFFIC_PAT: ${{ secrets.TRAFFIC_PAT }}
+          GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          # 1. Fetch traffic data from GitHub REST API
-          RESPONSE=$(curl -s -H "Authorization: Bearer $TRAFFIC_PAT" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/$REPO/traffic/views")
+          API_TOKEN="${TRAFFIC_PAT:-$GH_TOKEN}"
 
+          # 1. Fetch traffic data from GitHub REST API
+          RESPONSE=$(curl -s -u "x-access-token:$API_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$REPO/traffic/views")
           # 2. Extract and sum the last 2 days (48 hours)
           # GitHub returns daily totals in the "views" array
-          VIEWS_48H=$(echo "$RESPONSE" | jq '[.views[-2:][].count] | add // 0')
-          UNIQUES_48H=$(echo "$RESPONSE" | jq '[.views[-2:][].uniques] | add // 0')
+          VIEWS_48H=$(echo "$RESPONSE" | jq '[((.views // [])[-2:][]? | .count)] | add // 0')
+          UNIQUES_48H=$(echo "$RESPONSE" | jq '[((.views // [])[-2:][]? | .uniques)] | add // 0')
 
           # 3. Create JSON payload conforming to Shields.io Endpoint schema
           mkdir -p badges
-          cat <<EOF > badges/views-48h.json
+          cat <<EOF_JSON > badges/views-48h.json
           {
             "schemaVersion": 1,
             "label": "VIEWS (48H)",
             "message": "${VIEWS_48H} (${UNIQUES_48H} unique)",
             "color": "2563eb"
           }
-          EOF
+          EOF_JSON
 
       - name: Commit and push badge data to an orphan branch
         run: |
