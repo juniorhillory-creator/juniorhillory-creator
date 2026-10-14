@@ -103,7 +103,7 @@ I'm **Kushmitha**, a developer interested in building digital experiences and ex
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Status
 
 <p align="center">
   <picture>
